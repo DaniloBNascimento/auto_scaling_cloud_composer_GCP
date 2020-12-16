@@ -4,7 +4,9 @@ Enable auto scaling for GCP Cloud Compose
 # variables
 File variables.tf
 > project_id
+
 > region
+
 > zone
 
 File backend.tf
@@ -12,4 +14,5 @@ File backend.tf
 
 File grp-instance.sh
 > PROJECT="your-project"
+
 > ZONE="your-zone"
